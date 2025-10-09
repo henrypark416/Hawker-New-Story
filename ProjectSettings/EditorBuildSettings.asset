@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hawker Timeline 1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Start Menu/Menu Scene 1.unity
+    guid: fa3db7e7c5bfc8e459a7721c90048c25
+  - enabled: 0
+    path: Assets/Start Menu/Menu Scene 2.unity
+    guid: dade2eb8f2c359240926d2c6c966eaa5
+  - enabled: 0
+    path: Assets/Scenes/Hawker Timeline 2.unity
+    guid: 04fe5517b3d8b2a44a3285a1d9b19479
+  - enabled: 0
+    path: Assets/Start Menu/Menu Scene 3.unity
+    guid: 6d0df1a0370e79244a46665592ded040
+  - enabled: 0
+    path: Assets/Scenes/Hawker Timeline 3.unity
+    guid: 19b3adfce358ef84d9f863354631d190
+  - enabled: 0
+    path: Assets/Start Menu/Menu Scene 4.unity
+    guid: 520b8684c18947d49a2bfcde846308cc
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 32563e211cdd04e4a93f18e35de7968e,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9ae5ccbb66f67e842907f927237a922c,
+      type: 2}
