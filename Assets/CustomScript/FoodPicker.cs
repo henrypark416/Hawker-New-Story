@@ -2,30 +2,29 @@ using UnityEngine;
 
 public class FoodPicker : MonoBehaviour
 {
-    // ... (keep all your existing code at the top) ...
-    [Tooltip("The small food particle prefab to spawn.")]
-    public GameObject foodParticlePrefab;
-
-    [Tooltip("The point on the utensil where the particle will attach.")]
+    [Tooltip("Where the food particle should appear on the utensil (e.g., spoon tip).")]
     public Transform particleAttachPoint;
 
     private GameObject currentParticle = null;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentParticle != null)
-        {
-            return;
-        }
+        // Prevent double-spawning
+        if (currentParticle != null) return;
+        // Only react to food
+        if (!other.CompareTag("Food")) return;
 
-        if (other.CompareTag("Food"))
-        {
-            currentParticle = Instantiate(foodParticlePrefab, particleAttachPoint.position, particleAttachPoint.rotation);
-            currentParticle.transform.SetParent(particleAttachPoint);
-        }
+        // Find a FoodIdentity on the collided object or its parent
+        FoodIdentity food = other.GetComponentInParent<FoodIdentity>();
+        if (food == null || food.particlePrefab == null) return;
+
+        // Spawn and attach the correct particle
+        currentParticle = Instantiate(food.particlePrefab,
+                                      particleAttachPoint.position,
+                                      particleAttachPoint.rotation);
+        currentParticle.transform.SetParent(particleAttachPoint, worldPositionStays: true);
     }
 
-    // --- ADD THIS NEW FUNCTION ---
     public void DestroyCurrentParticle()
     {
         if (currentParticle != null)

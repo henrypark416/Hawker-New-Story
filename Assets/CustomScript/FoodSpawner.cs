@@ -11,14 +11,19 @@ public class FoodSpawner : MonoBehaviour
     // This will keep track of the currently active food object
     private GameObject currentFoodObject;
 
-    // A helper function to delete any food before spawning a new one
+    // A helper function to delete all food objects before spawning a new one
     private void DeleteCurrentFood()
     {
-        if (currentFoodObject != null)
+        // Find all game objects with the tag "Food"
+        GameObject[] allFoodObjects = GameObject.FindGameObjectsWithTag("Food");
+
+        // Loop through and destroy each one
+        foreach (GameObject food in allFoodObjects)
         {
-            Destroy(currentFoodObject);
+            Destroy(food);
         }
     }
+
 
     // This function will be called by your first button
     public void SpawnFood1()
