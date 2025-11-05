@@ -32,18 +32,13 @@ public class SmellDetector : MonoBehaviour
         // --- Logic for the picked-up food particle ---
         if (other.CompareTag("FoodParticle"))
         {
-            // Play both sounds from this object's AudioSource.
-            if (smellSound != null)
-            {
-                audioSource.PlayOneShot(smellSound);
-            }
+            // Only play the eating sound
             if (eatingSound != null)
             {
                 audioSource.PlayOneShot(eatingSound);
             }
 
-            // Now that the sounds are playing from the SmellZone,
-            // we can safely destroy the particle immediately.
+            // Destroy the food particle after sound plays
             Destroy(other.gameObject);
         }
     }
