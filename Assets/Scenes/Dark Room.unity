@@ -5105,7 +5105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Because hawker culture is not just about food, it is the story of our community.
+  m_text: Because hawker culture is not just food, it is the story of our community.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5307,62 +5307,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - textBox: {fileID: 1460407157}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
+    voiceClip: {fileID: 0}
     showAt: 0
     hideAt: 3
     fadeOut: 1
     fadeDuration: 0.5
   - textBox: {fileID: 2003004390}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
+    voiceClip: {fileID: 0}
     showAt: 4
-    hideAt: 7
+    hideAt: 12
     fadeOut: 1
     fadeDuration: 0.5
   - textBox: {fileID: 626112018}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    showAt: 8
-    hideAt: 11
-    fadeOut: 1
-    fadeDuration: 0.5
-  - textBox: {fileID: 856049774}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    showAt: 12
-    hideAt: 15
-    fadeOut: 1
-    fadeDuration: 0.5
-  - textBox: {fileID: 1919100003}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    showAt: 16
-    hideAt: 19
-    fadeOut: 1
-    fadeDuration: 0.5
-  - textBox: {fileID: 2140694305}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    showAt: 20
+    voiceClip: {fileID: 0}
+    showAt: 13
     hideAt: 23
     fadeOut: 1
     fadeDuration: 0.5
-  - textBox: {fileID: 1950279656}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
+  - textBox: {fileID: 856049774}
+    voiceClip: {fileID: 0}
     showAt: 24
+    hideAt: 33
+    fadeOut: 1
+    fadeDuration: 0.5
+  - textBox: {fileID: 1919100003}
+    voiceClip: {fileID: 0}
+    showAt: 34
+    hideAt: 45
+    fadeOut: 1
+    fadeDuration: 0.5
+  - textBox: {fileID: 2140694305}
+    voiceClip: {fileID: 0}
+    showAt: 46
+    hideAt: 57
+    fadeOut: 1
+    fadeDuration: 0.5
+  - textBox: {fileID: 1950279656}
+    voiceClip: {fileID: 0}
+    showAt: 58
     hideAt: 6000
     fadeOut: 0
     fadeDuration: 0
   - textBox: {fileID: 1869976337}
     voiceClip: {fileID: 0}
-    showAt: 28
+    showAt: 58
     hideAt: 6000
     fadeOut: 0
     fadeDuration: 0
   - textBox: {fileID: 290791394}
     voiceClip: {fileID: 0}
-    showAt: 28
+    showAt: 58
     hideAt: 6000
     fadeOut: 0
     fadeDuration: 0
   - textBox: {fileID: 572840300}
     voiceClip: {fileID: 0}
-    showAt: 28
+    showAt: 58
     hideAt: 6000
     fadeOut: 0
     fadeDuration: 0
@@ -5905,7 +5905,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Here, the trail of memories fades. The food, the smells, the voices of
-    the hawkers,they are no longer recorded.
+    the hawkers, they are no longer recorded.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

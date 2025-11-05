@@ -3572,8 +3572,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You are about to enter Glutton\u2019s Square, a car park where hawkers
-    once sold food from carts before Newton Food Centre was built."
+  m_text: "You are about to enter Glutton\u2019s Square in the 1960s, a car park
+    where hawkers once sold food from carts before Newton Food Centre was built."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

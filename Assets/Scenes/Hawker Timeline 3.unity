@@ -684,6 +684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4664574945878475463, guid: 57eac44584c071d4d8ef40566756f86c,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664574945878475463, guid: 57eac44584c071d4d8ef40566756f86c,
+        type: 3}
       propertyPath: m_TagString
       value: Chopstick
       objectReference: {fileID: 0}
@@ -921,9 +926,9 @@ MonoBehaviour:
   textBoxes:
   - {fileID: 664735239}
   - {fileID: 1377963935}
-  voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
+  voiceClip: {fileID: 0}
   manualHide: 0
-  autoHideAfter: 5
+  autoHideAfter: 7
 --- !u!82 &148451077
 AudioSource:
   m_ObjectHideFlags: 0
@@ -934,8 +939,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 55e0dbb036e85f74ab2599cdb1fa82bb, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4292,8 +4297,7 @@ MonoBehaviour:
   m_text: '
 
 
-    Good choice! The fierce wok fire gives it its smoky taste some
-    say ours beats the rest.'
+    Good choice! People say our one got the best flavour!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4551,7 +4555,7 @@ MonoBehaviour:
   m_text: '
 
 
-    Come closer! Tonight you can choose chicken rice or char kway teow
+    Hey you! Come closer! Tonight you can choose chicken rice or laksa,
     which one will it be?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4834,13 +4838,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - textBox: {fileID: 119230152}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    visibleSeconds: 5
+    voiceClip: {fileID: 8300000, guid: 435516ea339ed8e4aaede02ab5346ba1, type: 3}
+    visibleSeconds: 9
     fadeOut: 0
     fadeDuration: 0
   - textBox: {fileID: 1430056233}
     voiceClip: {fileID: 0}
-    visibleSeconds: 5
+    visibleSeconds: 9
     fadeOut: 0
     fadeDuration: 0
   audioSource: {fileID: 0}
@@ -5491,13 +5495,13 @@ MonoBehaviour:
   dwellSeconds: 0.25
   fireMode: 0
   sceneName: Dark Room
-  sceneDelaySeconds: 4
+  sceneDelaySeconds: 4.5
   entries:
   - boxOrText: {fileID: 363833148}
-    voiceClip: {fileID: 0}
-    visibleSeconds: 3
-    fadeOut: 0
-    fadeDuration: 0
+    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
+    visibleSeconds: 4
+    fadeOut: 1
+    fadeDuration: 0.5
   rescanInterval: 0.5
 --- !u!4 &810588374
 Transform:
@@ -5670,7 +5674,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Food 2
+  m_text: Laksa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8325,13 +8329,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - textBox: {fileID: 1015651918}
-    voiceClip: {fileID: 8300000, guid: 6126dd362907f2040a8f887f41bc3b3b, type: 3}
-    visibleSeconds: 5
+    voiceClip: {fileID: 8300000, guid: 458550286e15f5740990651b4dd39ab6, type: 3}
+    visibleSeconds: 4
     fadeOut: 0
     fadeDuration: 0
   - textBox: {fileID: 1755562795}
     voiceClip: {fileID: 0}
-    visibleSeconds: 5
+    visibleSeconds: 4
     fadeOut: 0
     fadeDuration: 0
   audioSource: {fileID: 0}
@@ -8418,6 +8422,10 @@ PrefabInstance:
     - target: {fileID: 1299607530134270, guid: 97040231d13449049ae427c70f780724, type: 3}
       propertyPath: m_Layer
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299607530134270, guid: 97040231d13449049ae427c70f780724, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1299607530134270, guid: 97040231d13449049ae427c70f780724, type: 3}
       propertyPath: m_TagString
@@ -8643,8 +8651,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nGood choice! Tender chicken, fragrant rice the best you\u2019ll find
-    here. Every stall says that, but we mean it!"
+  m_text: "\n\nGood choice! This one got tender chicken and delicious homemade chilli,
+    the best you\u2019ll find here. Every stall says that, but we mean it!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10673,7 +10681,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Food 1
+  m_text: 'Chicken
+
+    Rice'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13330,7 +13340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2134409279
 Transform:
   m_ObjectHideFlags: 0

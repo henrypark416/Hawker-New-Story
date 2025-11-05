@@ -3619,8 +3619,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You are about to enter Newton Food Centre when it was first built, after
-    hawkers from the area were gathered into one place.
+  m_text: You are about to enter Newton Food Centre in the 1980s-1990s, after hawkers
+    from the area were gathered into one place.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
